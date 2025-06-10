@@ -85,24 +85,40 @@ export default function EventsSection() {
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
           {eventTypes.map((event, index) => {
             const IconComponent = event.icon;
+            const eventImages = [
+              "/attached_assets/IMG_5629.jpg", // Fundraisers
+              "/attached_assets/IMG_5626.jpg", // Summer Camps
+              "/attached_assets/IMG_5674.jpg", // Bar/Bat Mitzvahs
+              "/attached_assets/IMG_5715.jpg"  // Corporate Events
+            ];
+            
             return (
               <motion.div
                 key={event.title}
-                className={`card-hover bg-gradient-to-br ${event.gradient} rounded-2xl p-8 text-white text-center shadow-xl`}
+                className={`card-hover relative overflow-hidden rounded-2xl shadow-xl`}
                 initial={{ opacity: 0, y: 50 }}
                 animate={isVisible ? { opacity: 1, y: 0 } : { opacity: 0, y: 50 }}
                 transition={{ duration: 0.6, delay: index * 0.1 }}
                 whileHover={{ y: -8 }}
               >
-                <div className="text-5xl mb-6">
-                  <IconComponent size={48} className="mx-auto" />
-                </div>
-                <h3 className="font-fredoka text-2xl mb-4">{event.title}</h3>
-                <p className="font-opensans opacity-90 mb-6">
-                  {event.description}
-                </p>
-                <div className="bg-white/20 rounded-lg p-3">
-                  <span className="font-nunito font-semibold text-sm">{event.subtitle}</span>
+                <div 
+                  className="absolute inset-0 bg-cover bg-center"
+                  style={{ backgroundImage: `url(${eventImages[index]})` }}
+                ></div>
+                <div className={`absolute inset-0 bg-gradient-to-br ${event.gradient} opacity-85`}></div>
+                <div className="relative z-10 p-8 text-white text-center h-full flex flex-col justify-between">
+                  <div>
+                    <div className="text-5xl mb-6">
+                      <IconComponent size={48} className="mx-auto drop-shadow-lg" />
+                    </div>
+                    <h3 className="font-fredoka text-2xl mb-4 drop-shadow-lg">{event.title}</h3>
+                    <p className="font-opensans opacity-90 mb-6 drop-shadow">
+                      {event.description}
+                    </p>
+                  </div>
+                  <div className="bg-white/20 backdrop-blur-sm rounded-lg p-3">
+                    <span className="font-nunito font-semibold text-sm">{event.subtitle}</span>
+                  </div>
                 </div>
               </motion.div>
             );

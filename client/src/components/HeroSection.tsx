@@ -10,8 +10,12 @@ export default function HeroSection() {
   ];
 
   return (
-    <section id="home" className="hero-gradient min-h-screen flex items-center justify-center relative overflow-hidden">
-      <div className="absolute inset-0 bg-black/20"></div>
+    <section id="home" className="min-h-screen flex items-center justify-center relative overflow-hidden">
+      <div 
+        className="absolute inset-0 bg-cover bg-center"
+        style={{ backgroundImage: 'url(/attached_assets/DSC_0789-XL.jpg)' }}
+      ></div>
+      <div className="absolute inset-0 bg-gradient-to-br from-orange-500/80 via-red-500/70 to-teal-500/60"></div>
       
       {/* Floating basketball icons */}
       {floatingBalls.map((ball, index) => (

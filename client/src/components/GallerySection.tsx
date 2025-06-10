@@ -28,36 +28,68 @@ export default function GallerySection() {
 
   const photos = [
     {
-      src: "https://images.unsplash.com/photo-1574623452334-1e0ac2b3ccb4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&h=300",
+      src: "/attached_assets/IMG_4443-XL.jpg",
       alt: "Court Jesters performing basketball tricks"
     },
     {
-      src: "https://images.unsplash.com/photo-1511632765486-a01980e01a18?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&h=300",
-      alt: "Families enjoying Court Jesters performance"
+      src: "/attached_assets/IMG_4446-XL.jpg",
+      alt: "Court Jesters team in action during performance"
     },
     {
-      src: "https://images.unsplash.com/photo-1515187029135-18ee286d815b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&h=300",
-      alt: "Corporate event entertainment by Court Jesters"
+      src: "/attached_assets/IMG_4448-XL.jpg",
+      alt: "Live Court Jesters basketball comedy show"
     },
     {
-      src: "https://images.unsplash.com/photo-1608245449230-4ac19066d2d0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&h=300",
-      alt: "Summer camp basketball activities with Court Jesters"
+      src: "/attached_assets/IMG_4457-XL.jpg",
+      alt: "Court Jesters entertaining the crowd"
     },
     {
-      src: "https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&h=300",
-      alt: "Court Jesters team members in performance uniforms"
+      src: "/attached_assets/IMG_4562-XL.jpg",
+      alt: "Court Jesters team members performing"
     },
     {
-      src: "https://images.unsplash.com/photo-1546519638-68e109498ffc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&h=300",
-      alt: "Community fundraiser event featuring Court Jesters"
+      src: "/attached_assets/IMG_4575-XL.jpg",
+      alt: "Audience enjoying Court Jesters performance"
     },
     {
-      src: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&h=300",
-      alt: "Dynamic basketball comedy performance action shot"
+      src: "/attached_assets/IMG_4587-XL.jpg",
+      alt: "Court Jesters basketball entertainment"
     },
     {
-      src: "https://images.unsplash.com/photo-1574623452334-1e0ac2b3ccb4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&h=300",
-      alt: "Audience participation during Court Jesters show"
+      src: "/attached_assets/IMG_4604-XL.jpg",
+      alt: "Court Jesters comedy basketball show"
+    },
+    {
+      src: "/attached_assets/IMG_5577.jpg",
+      alt: "Court Jesters team performance"
+    },
+    {
+      src: "/attached_assets/IMG_5587.jpg",
+      alt: "Court Jesters basketball skills demonstration"
+    },
+    {
+      src: "/attached_assets/IMG_5591.jpg",
+      alt: "Court Jesters entertaining families"
+    },
+    {
+      src: "/attached_assets/IMG_5625.jpg",
+      alt: "Court Jesters halftime show entertainment"
+    },
+    {
+      src: "/attached_assets/courtjesters15.jpg",
+      alt: "Court Jesters team group photo"
+    },
+    {
+      src: "/attached_assets/courtjesters19.jpg",
+      alt: "Court Jesters performance highlights"
+    },
+    {
+      src: "/attached_assets/courtjesters36.jpg",
+      alt: "Court Jesters basketball comedy action"
+    },
+    {
+      src: "/attached_assets/courtjesters38.jpg",
+      alt: "Court Jesters audience interaction"
     }
   ];
 

@@ -26,7 +26,11 @@ export default function Footer() {
         <div className="grid md:grid-cols-3 gap-12 mb-12">
           <div>
             <div className="flex items-center mb-6">
-              <div className="text-3xl mr-3" style={{ color: 'var(--primary-orange)' }}>🏀</div>
+              <img 
+                src="/attached_assets/courtjesters4.jpg" 
+                alt="Court Jesters logo" 
+                className="w-12 h-12 rounded-full mr-3 object-cover"
+              />
               <span className="font-fredoka text-2xl">Court Jesters</span>
             </div>
             <p className="font-opensans text-gray-300 mb-6 leading-relaxed">

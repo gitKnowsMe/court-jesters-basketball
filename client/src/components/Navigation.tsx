@@ -36,7 +36,12 @@ export default function Navigation() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <div className="flex items-center">
-            <div className="text-2xl mr-3" style={{ color: 'var(--primary-orange)' }}>🏀</div>
+            <img 
+              src="/attached_assets/courtjesters4.jpg" 
+              alt="Court Jesters" 
+              className="w-10 h-10 rounded-full mr-3 object-cover border-2"
+              style={{ borderColor: 'var(--primary-orange)' }}
+            />
             <span className="font-fredoka text-xl" style={{ color: 'var(--text-navy)' }}>Court Jesters</span>
           </div>
           

@@ -61,8 +61,8 @@ export default function AboutSection() {
             transition={{ duration: 0.8, delay: 0.2 }}
           >
             <img 
-              src="https://images.unsplash.com/photo-1546519638-68e109498ffc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=600" 
-              alt="Professional basketball comedy team performing" 
+              src="/attached_assets/DSC_0777-XL.jpg" 
+              alt="Court Jesters team performing live entertainment" 
               className="rounded-2xl shadow-2xl w-full h-auto"
             />
           </motion.div>
