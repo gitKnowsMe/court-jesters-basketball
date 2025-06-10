@@ -76,7 +76,7 @@ export default function AboutSection() {
               className="font-fredoka text-3xl mb-6"
               style={{ color: 'var(--text-navy)' }}
             >
-              25 Years of Entertainment Excellence
+              Celebrating 25 Years of Fun & Entertainment!
             </h3>
             <p className="font-opensans text-lg text-gray-700 mb-6 leading-relaxed">
               Founded by Andrew Eckman, the Court Jesters offer a wide variety of entertainment from basketball tricks to court antics to slam-dunks and even the cha-cha slide. We have highly talented former professional and college basketball players with years of experience and great showmanship skills.

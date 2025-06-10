@@ -94,7 +94,7 @@ export default function PackagesSection() {
           <div className="text-center mb-12">
             <h3 className="font-fredoka text-3xl md:text-4xl mb-4">Complete Performance Package</h3>
             <p className="font-opensans text-lg opacity-90 max-w-2xl mx-auto">
-              Everything you need for a successful event, delivered by our professional entertainment team.
+              A two-hour show including halftime show, autograph session, plus two hours of free school promotion featuring education and anti-bullying talks.
             </p>
           </div>
           
