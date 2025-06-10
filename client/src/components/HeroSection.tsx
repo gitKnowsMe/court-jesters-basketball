@@ -54,7 +54,7 @@ export default function HeroSection() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.2 }}
         >
-          25 Years of Laughter, Hoops & Memories
+          Your Smile Is Our Victory!
         </motion.p>
         
         <motion.p
@@ -63,7 +63,7 @@ export default function HeroSection() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.4 }}
         >
-          Professional comedy basketball entertainment that brings joy, laughter, and unforgettable memories to families, schools, and communities nationwide.
+          SLAM DUNK Entertainment for the Whole Family! Professional comedy basketball with highly talented former professional and college players bringing endless laughs and countless smiles.
         </motion.p>
         
         <motion.div

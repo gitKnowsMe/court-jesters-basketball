@@ -31,33 +31,33 @@ export default function PackagesSection() {
   const packageItems = [
     {
       icon: Users,
-      title: "6 Professional Players",
+      title: "6 Spectacular Players",
       description: "Our complete team of skilled entertainers and basketball players"
     },
     {
       icon: Mic,
-      title: "Professional Announcer",
-      description: "Expert MC to engage your audience and keep the energy high"
+      title: "Special Referee",
+      description: "Professional referee to officiate your celebrity game"
     },
     {
       icon: Star,
-      title: "Halftime Show",
-      description: "Special interactive segment with audience participation"
+      title: "Witty Announcer",
+      description: "Expert MC to engage your audience and keep the energy high"
     },
     {
       icon: Megaphone,
-      title: "Promotional Posters",
-      description: "Custom marketing materials to promote your event"
+      title: "Promotional Kit",
+      description: "Includes flyers, posters and tickets for your event"
     },
     {
       icon: Gift,
-      title: "Prize Raffles",
-      description: "Exciting giveaways to enhance audience engagement"
+      title: "Halftime Show",
+      description: "Interactive show involving 25 students from your audience"
     },
     {
       icon: Handshake,
-      title: "Full Setup Support",
-      description: "We handle all logistics so you can focus on your guests"
+      title: "Celebrity Game & Souvenirs",
+      description: "Play against your celebrity team plus souvenir sales (20% to your organization)"
     }
   ];
 

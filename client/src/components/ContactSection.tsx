@@ -78,13 +78,13 @@ export default function ContactSection() {
     {
       icon: Phone,
       title: "Phone",
-      value: "(555) JESTERS",
+      value: "413-246-7128",
       color: "var(--primary-orange)"
     },
     {
       icon: Mail,
       title: "Email",
-      value: "info@courtjesters.com",
+      value: "AndyE2@aol.com",
       color: "var(--secondary-teal)"
     },
     {

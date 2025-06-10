@@ -29,6 +29,8 @@ export const insertContactSubmissionSchema = createInsertSchema(contactSubmissio
   phone: true,
   eventType: true,
   message: true,
+}).extend({
+  phone: z.string().optional(),
 });
 
 export type InsertUser = z.infer<typeof insertUserSchema>;

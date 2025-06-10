@@ -87,11 +87,11 @@ export default function Footer() {
             <div className="space-y-4">
               <div className="flex items-center">
                 <div className="mr-3" style={{ color: 'var(--primary-orange)' }}>📞</div>
-                <span className="font-opensans text-gray-300">(555) JESTERS</span>
+                <span className="font-opensans text-gray-300">413-246-7128</span>
               </div>
               <div className="flex items-center">
                 <div className="mr-3" style={{ color: 'var(--primary-orange)' }}>✉️</div>
-                <span className="font-opensans text-gray-300">info@courtjesters.com</span>
+                <span className="font-opensans text-gray-300">AndyE2@aol.com</span>
               </div>
               <div className="flex items-start">
                 <div className="mr-3 mt-1" style={{ color: 'var(--primary-orange)' }}>📍</div>

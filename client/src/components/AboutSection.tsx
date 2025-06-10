@@ -79,10 +79,10 @@ export default function AboutSection() {
               25 Years of Entertainment Excellence
             </h3>
             <p className="font-opensans text-lg text-gray-700 mb-6 leading-relaxed">
-              For over two decades, the Court Jesters have been America's premier comedy basketball entertainment team. We specialize in family-friendly shows that combine incredible basketball skills with side-splitting comedy routines.
+              Founded by Andrew Eckman, the Court Jesters offer a wide variety of entertainment from basketball tricks to court antics to slam-dunks and even the cha-cha slide. We have highly talented former professional and college basketball players with years of experience and great showmanship skills.
             </p>
             <p className="font-opensans text-lg text-gray-700 mb-8 leading-relaxed">
-              Our talented team of professional entertainers brings energy, laughter, and unforgettable memories to every event. From schools and summer camps to corporate events and fundraisers, we create experiences that audiences talk about for years.
+              Our purpose is to provide endless laughs, countless smiles and good cheer to the entire audience and everyone involved. Andrew's incredible management skills helped him become road manager for the sister team of the Harlem Wizards and increased the overall gross income by 150 percent.
             </p>
             
             <div className="grid grid-cols-2 gap-6">
