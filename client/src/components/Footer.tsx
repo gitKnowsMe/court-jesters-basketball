@@ -27,7 +27,7 @@ export default function Footer() {
           <div>
             <div className="flex items-center mb-6">
               <img 
-                src="/attached_assets/courtjesters4.jpg" 
+                src="/attached_assets/cj_logo.png" 
                 alt="Court Jesters logo" 
                 className="w-12 h-12 rounded-full mr-3 object-cover"
               />
@@ -95,7 +95,7 @@ export default function Footer() {
               </div>
               <div className="flex items-center">
                 <div className="mr-3" style={{ color: 'var(--primary-orange)' }}>✉️</div>
-                <span className="font-opensans text-gray-300">AndyE2@aol.com</span>
+                <span className="font-opensans text-gray-300">andyec2@aol.com</span>
               </div>
               <div className="flex items-start">
                 <div className="mr-3 mt-1" style={{ color: 'var(--primary-orange)' }}>📍</div>

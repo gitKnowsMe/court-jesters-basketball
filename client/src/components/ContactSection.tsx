@@ -84,7 +84,7 @@ export default function ContactSection() {
     {
       icon: Mail,
       title: "Email",
-      value: "AndyE2@aol.com",
+      value: "andyec2@aol.com",
       color: "var(--secondary-teal)"
     },
     {

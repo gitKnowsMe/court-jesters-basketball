@@ -37,7 +37,7 @@ export default function Navigation() {
         <div className="flex justify-between items-center h-16">
           <div className="flex items-center">
             <img 
-              src="/attached_assets/courtjesters4.jpg" 
+              src="/attached_assets/cj_logo.png" 
               alt="Court Jesters" 
               className="w-10 h-10 rounded-full mr-3 object-cover border-2"
               style={{ borderColor: 'var(--primary-orange)' }}

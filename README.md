@@ -86,7 +86,7 @@ Every Court Jesters performance includes:
 ## 📞 Contact Information
 
 - **Phone**: 413-246-7128
-- **Email**: AndyE2@aol.com
+- **Email**: andyec2@aol.com
 - **Tagline**: "Your Smile Is Our Victory!"
 
 ## 🚀 Deployment

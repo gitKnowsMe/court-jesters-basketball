@@ -82,7 +82,7 @@ export default function AboutSection() {
               Founded by Andrew Eckman, the Court Jesters offer a wide variety of entertainment from basketball tricks to court antics to slam-dunks and even the cha-cha slide. We have highly talented former professional and college basketball players with years of experience and great showmanship skills.
             </p>
             <p className="font-opensans text-lg text-gray-700 mb-8 leading-relaxed">
-              Our purpose is to provide endless laughs, countless smiles and good cheer to the entire audience and everyone involved. Andrew's incredible management skills helped him become road manager for the sister team of the Harlem Wizards and increased the overall gross income by 150 percent.
+              Our purpose is to provide endless laughs, countless smiles and good cheer to the entire audience and everyone involved.
             </p>
             
             <div className="grid grid-cols-2 gap-6">

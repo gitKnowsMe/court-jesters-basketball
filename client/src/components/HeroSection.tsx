@@ -3,12 +3,6 @@ import { scrollToSection } from "@/lib/smoothScroll";
 import { ChevronDown } from "lucide-react";
 
 export default function HeroSection() {
-  const floatingBalls = [
-    { delay: 0, top: "20%", left: "10%", size: "4xl", opacity: "opacity-30" },
-    { delay: -1, top: "40%", right: "20%", size: "3xl", opacity: "opacity-20" },
-    { delay: -2, bottom: "40%", left: "20%", size: "2xl", opacity: "opacity-25" },
-  ];
-
   return (
     <section id="home" className="min-h-screen flex items-center justify-center relative overflow-hidden">
       <div 
@@ -16,31 +10,6 @@ export default function HeroSection() {
         style={{ backgroundImage: 'url(/attached_assets/DSC_0789-XL.jpg)' }}
       ></div>
       <div className="absolute inset-0 bg-gradient-to-br from-orange-500/80 via-red-500/70 to-teal-500/60"></div>
-      
-      {/* Floating basketball icons */}
-      {floatingBalls.map((ball, index) => (
-        <motion.div
-          key={index}
-          className={`absolute floating ${ball.opacity}`}
-          style={{
-            top: ball.top,
-            left: ball.left,
-            right: ball.right,
-            bottom: ball.bottom,
-          }}
-          animate={{
-            y: [0, -10, 0],
-          }}
-          transition={{
-            duration: 3,
-            repeat: Infinity,
-            ease: "easeInOut",
-            delay: ball.delay,
-          }}
-        >
-          <div className={`text-${ball.size} text-yellow-300`}>🏀</div>
-        </motion.div>
-      ))}
       
       <div className="relative z-10 text-center text-white px-4 sm:px-6 lg:px-8 max-w-6xl mx-auto">
         <motion.h1
